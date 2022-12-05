@@ -1,4 +1,4 @@
-/*! fancyBox v2.1.5 fancyapps.com | fancyapps.com/fancybox/#license */
+
 .fancybox-wrap,
 .fancybox-skin,
 .fancybox-outer,
@@ -116,7 +116,7 @@
 	height: 100%;
 	cursor: pointer;
 	text-decoration: none;
-	background: transparent url(../images/blank.gif); /* helps IE */
+	background: transparent url(../images/blank.gif); 
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
 	z-index: 8040;
 }
@@ -163,7 +163,6 @@
 	overflow: visible !important;
 }
 
-/* Overlay helper */
 
 .fancybox-lock {
     overflow: visible !important;
