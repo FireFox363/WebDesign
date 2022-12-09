@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* obrazky */
+.imgLogo{
+    display: block;
+    margin: auto;
+    width: 210px;
+    
+}
+
+.imgGame {
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+figcaption {
+    text-align: center;
+    font-size: 20px;
+}
+
+.imgGameMethod{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+/* aside */
+.aside{
+    width:49%;
+    padding-left: .2rem;
+    margin-left: .2rem;
+    float: right;
+    text-align: left;
+    box-shadow: inset 5px 0 5px -5px #dd4b4b;
+    font-style: italic;
+}
+aside > p {
+    margin: .2rem;
+}
+.ContextWithAside{
+    font-size: 25px;
+    text-align: center;
+    width: 1500px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+/* article */
+.GenGames{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+h1{
+    font-size: 40px;
+}
+.h2{
+    font-size: 28px;
+    text-align: center;
+}
+
+/* names */
+.name{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* nav */
+.navMain{
+    text-decoration: none;
+    text-align: center;
+    font-size: 21px;
+    color: #000000;
+    border: none;
+    background-color: white;
+    padding: 2px 1rem;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    margin: 2rem;
+}
+.navMain:hover {
+    background-color: #eeeeee;
+    color: #dd4b4b;
+}
+.navMain:focus {
+    outline: none;
+    background-color: #dd4b4b;
+    color: white;
+}
+nav {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+/* main */
+.Main{
+    text-align: center;
+    font-size: 40px;
+}
+.Context{
+    font-size: 25px;
+    text-align: center;
+    width: 1500px;
+    margin: auto;
+}
+.line{
+    border-bottom: 3px solid;
+    border-color: #000000;
+    padding: 5px 0;
+}
+
+
+/* footer */
+.footer {
+    justify-content: center;
+    margin-top: 50px;
+    border-top: 2px solid grey;
+    background: #000000;
+    padding: 15px 0;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
