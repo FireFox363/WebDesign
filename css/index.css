@@ -188,12 +188,15 @@ button:before{
     height: 250px;
 }
 
+
+
+
+
 /* News */
 .News{
     display: flex;
     align-items: center;
 }
-
 
 .date{
     margin-top: 5px;
@@ -205,9 +208,9 @@ button:before{
     margin-right: 15px;
     width: 300px;
     height: 200px;
-    border-radius: 5px;
+    border-radius: 7px;
     background-color:#0f44d6fd;
-    padding: 5px;
+    padding: 3px;
     
 }
 .pict2{
@@ -215,18 +218,18 @@ button:before{
     margin-right: 15px;
     width: 300px;
     height: 200px;
-    border-radius: 5px;
+    border-radius: 7px;
     background-color: #0f44d6fd;
-    padding: 5px;
+    padding: 3px;
 }
 .pict3{
     float: left;
     margin-right: 15px;
     width: 300px;
     height: 200px;
-    border-radius: 5px;
+    border-radius: 7px;
     background-color: #0f44d6fd;
-    padding: 5px;
+    padding: 3px;
 }
 
 /* Click */
@@ -235,22 +238,22 @@ button:before{
 }
 
 .NewsA:link {
-    color: green;
+    color: #0f44d6fd;
     background-color: transparent;
     text-decoration: none;
 }
 .NewsA:visited {
-    color: pink;
+    color: #0f44d6fd;
     background-color: transparent;
     text-decoration: none;
 }
 .NewsA:hover {
-    color: red;
+    color: #d86834;
     background-color: transparent;
     text-decoration: underline;
 }
 .NewsA:active {
-    color: yellow;
+    color: #d85316;
     background-color: transparent;
     text-decoration: underline;
 }
