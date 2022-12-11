@@ -1,14 +1,13 @@
-* {
+body {
     padding: 0;
     margin: auto;
     box-sizing: border-box;
     max-width: 1200px;
-    
 }
 
 /* obrazky */
 .imgLogo{
-    margin-bottom: 10px;
+    margin-bottom: -15px;
     margin-top: 10px;
     text-align: left;
     width: 180px;  
@@ -18,29 +17,6 @@
 figcaption {
     text-align: center;
     font-size: 20px;
-}
-
-
-
-/* aside */
-.aside{
-    width:49%;
-    padding-left: .2rem;
-    margin-left: .2rem;
-    float: right;
-    text-align: left;
-    box-shadow: inset 5px 0 5px -5px #dd4b4b;
-    font-style: italic;
-}
-aside > p {
-    margin: .2rem;
-}
-.ContextWithAside{
-    font-size: 25px;
-    text-align: center;
-    width: 1500px;
-    margin: auto;
-    margin-bottom: 30px;
 }
 
 /* article */
@@ -67,13 +43,18 @@ h1{
 .main_name{
     text-align: left;
     text-transform: uppercase;
+    margin-bottom: -10px;
 }
 
 .under_main_name{
     font-size: 15px;
     text-align: left;
     text-transform: uppercase;
-    margin-bottom: 10px;
+}
+
+.UpperName{
+    text-align: left;
+    margin-bottom: 15px;
 }
 
 /* nav */
@@ -118,6 +99,7 @@ nav {
     background: #0f44d6fd;
     padding: 5px 0;
     border-radius: 20px;
+    margin-bottom: 15px;
 }
 
 
@@ -153,11 +135,11 @@ input{
 }
 
 button{
-    position: absolute; 
+    position:absolute; 
     top: 0;
-    right: 0px;
-    height: 42px;
-    width: 42px;
+    right: -15px;
+    height: 47px;
+    width: 47px;
     border-radius: 0 5px 5px 0;
     cursor: pointer;
     border: none;
@@ -169,4 +151,83 @@ button:before{
     font-family: FontAwesome;
     font-size: 16px;
     color: #ffffff;
+}
+
+/* Photos/Grid */
+.inPhoto {
+    padding: 0 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.PhotosImg {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.Photos {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 260px 260px 260px 260px 260px;
+    gap: 0px 10px;
+    grid-template-areas: 
+        "top1 top2 top2"
+        "top1 mid2 mid2"
+        "mid3 mid2 mid2"
+        "mid4 mid4 mid5"
+        "mid6 mid7 mid5";         
+}
+
+.Photo1 {
+    grid-area: top1;
+    height: 510px;
+}
+
+.Photo2 {
+    grid-area: top2;
+    height: 250px;
+}
+
+/* News */
+.News{
+    display: flex;
+    align-items: center;
+}
+
+.NewsP{
+    
+}
+
+.date{
+    margin-top: 5px;
+    margin-bottom: -15px;
+}
+
+.pict1{
+    float: left;
+    margin-right: 15px;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    background-color:#0f44d6fd;
+    padding: 5px;
+    
+}
+.pict2{
+    float: left;
+    margin-right: 15px;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: #0f44d6fd;
+    padding: 5px;
+}
+.pict3{
+    float: left;
+    margin-right: 15px;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: #0f44d6fd;
+    padding: 5px;
 }
