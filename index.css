@@ -194,13 +194,10 @@ button:before{
     align-items: center;
 }
 
-.NewsP{
-    
-}
 
 .date{
     margin-top: 5px;
-    margin-bottom: -15px;
+    margin-bottom: -25px;
 }
 
 .pict1{
@@ -230,4 +227,30 @@ button:before{
     border-radius: 5px;
     background-color: #0f44d6fd;
     padding: 5px;
+}
+
+/* Click */
+.NewsP{
+    font-size: 30px;
+}
+
+.NewsA:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+.NewsA:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+.NewsA:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.NewsA:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
 }
