@@ -3,6 +3,18 @@ body {
     margin: auto;
     box-sizing: border-box;
     max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.line{
+    border-bottom: 3px solid;
+    border-color: #000000;
+    padding: 5px 0;
+}
+
+.Contacts{
+    margin-top: -20px;
 }
 
 /* obrazky */
@@ -12,7 +24,6 @@ body {
     text-align: left;
     width: 180px;  
 }
-
 
 figcaption {
     text-align: center;
@@ -131,7 +142,7 @@ input{
     outline: none;
     border: 2px solid #0f44d6fd;
     background: #ffffff;
-    color: #0f44d6fd;
+    color: #000000fd;
 }
 
 button{
@@ -154,43 +165,77 @@ button:before{
 }
 
 /* Photos/Grid */
-.inPhoto {
-    padding: 0 15px;
-    width: 100%;
-    box-sizing: border-box;
+.Photos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-.PhotosImg {
+.inPhoto {
+    padding: 0 0px;
     width: 100%;
-    margin-bottom: 20px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
 }
 
 .Photos {
     display: grid;
-    grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 260px 260px 260px 260px 260px;
-    gap: 0px 10px;
+    grid-template-columns: 385px 385px 385px;
+    grid-template-rows: 300px 300px 300px 300px 300px;
+    gap: 10px 10px;
     grid-template-areas: 
-        "top1 top2 top2"
-        "top1 mid2 mid2"
-        "mid3 mid2 mid2"
-        "mid4 mid4 mid5"
-        "mid6 mid7 mid5";         
+        "t2 t2 t1"
+        "t3 t6 t1 "
+        "t7 t7 t8 "
+        "t7 t7 t8 "
+        "t5 t9 t12 ";         
 }
 
 .Photo1 {
-    grid-area: top1;
-    height: 510px;
+    grid-area: t1;
+    width: 385px;
+    height: 600px;
 }
-
 .Photo2 {
-    grid-area: top2;
-    height: 250px;
+    grid-area: t2;
+    width: 770px;
+    height: 300px;
 }
-
-
-
-
+.Photo3 {
+    grid-area: t3;
+    width: 375px;
+    height: 290px;
+}
+.Photo5 {
+    grid-area: t5;
+    width: 375px;
+    height: 290px;
+}
+.Photo6 {
+    grid-area: t6;
+    width: 375px;
+    height: 290px;
+}
+.Photo7 {
+    grid-area: t7;
+    width: 770px;
+    height: 600px;
+}
+.Photo8 {
+    grid-area: t8;
+    width: 385px;
+    height: 600px;
+}
+.Photo9 {
+    grid-area: t9;
+    width: 365px;
+    height: 290px;
+}
+.Photo12 {
+    grid-area: t12;
+    width: 385px;
+    height: 290px;
+}
 
 /* News */
 .News{
@@ -226,6 +271,16 @@ button:before{
     float: left;
     margin-right: 15px;
     width: 300px;
+    height: 200px;
+    border-radius: 7px;
+    background-color: #0f44d6fd;
+    padding: 3px;
+}
+
+.con{
+    float: left;
+    margin-right: 15px;
+    width: 160px;
     height: 200px;
     border-radius: 7px;
     background-color: #0f44d6fd;
