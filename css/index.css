@@ -24,15 +24,29 @@ body {
     display: flex;
     background-color: #0f44d6fd;
     border-radius: 20px;
-  }
-  
-  .flex > div {
+  }  
+.flex > div {
     background-color: #ffffff;
     margin: 10px;
     padding: 20px;
     font-size: 35px;
     border-radius: 20px;
-  }
+}
+
+.flex2{
+    flex-wrap: nowrap;
+    align-content: center;
+    display: flex;
+    background-color: #0f44d6fd;
+    border-radius: 20px;
+}
+.flex2 > div {
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+    border-radius: 20px;
+}
 
 /* obrazky */
 .imgLogo{
